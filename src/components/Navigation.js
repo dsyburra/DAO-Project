@@ -1,18 +1,18 @@
 import Navbar from 'react-bootstrap/Navbar';
 
-import logo from '../VERBmi_logo.png';
+import logo from '../logo.png';
 
 const Navigation = ({ account }) => {
   return (
     <Navbar className='my-3'>
       <img
-        alt="VERBmi logo"
+        alt="logo"
         src={logo}
-        width="70"
-        height="50"
+        width="50"
+        height="60"
         className="d-inline-block align-top mx-3"
       />
-      <Navbar.Brand href="#">VERBmi</Navbar.Brand>
+      <Navbar.Brand href="https://VERBmi.com">VERBmi DAO</Navbar.Brand>
       <Navbar.Collapse className="justify-content-end">
         <Navbar.Text>
           {account}
